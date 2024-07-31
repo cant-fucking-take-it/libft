@@ -6,7 +6,7 @@
 /*   By: ecoma-ba <ecoma-ba@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/07 23:08:16 by ecoma-ba          #+#    #+#             */
-/*   Updated: 2024/07/29 09:55:53 by ecoma-ba         ###   ########.fr       */
+/*   Updated: 2024/07/31 11:13:06 by ecoma-ba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,6 +48,7 @@ int					ft_memcmp(const void *s1, const void *s2, size_t n);
 void				*ft_memcpy(void *dest, const void *src, size_t n);
 void				*ft_memmove(void *dest, const void *src, size_t n);
 void				*ft_memset(void *ptr, int c, size_t n);
+void				*ft_memset32(void *ptr, int c, size_t n);
 void				ft_putchar_fd(char c, int fd);
 ssize_t				ft_putchar_fd_st(char c, int fd);
 void				ft_putendl_fd(char *s, int fd);
